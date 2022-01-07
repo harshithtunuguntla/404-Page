@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://ecstatic-thompson-eb8f16.netlify.app/">
+    <a href="https://ecstatic-thompson-eb8f16.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://ecstatic-thompson-eb8f16.netlify.app/">
+    <a href="https://ecstatic-thompson-eb8f16.netlify.app/" target="_blank">
       Solution
     </a>
     <span> | </span>
