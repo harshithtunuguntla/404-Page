@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devchallenges</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Space+Mono">
+
+          <link rel="icon" href="devchallenges.png" type="image"/>
+
+          <title>Devchallenges</title>
+
+    <style>
+
+        :root{
+            --clr-gray1:#333333;
+            --clr-gray2:#4F4F4F;
+
+            --clr-white:#FFF;
+
+            --clr-footer:#BDBDBD;
+
+        }
+
+        .heading{
+            margin: 40px;
+            font-family: Inconsolata;
+            font-weight: 800;
+        }
+
+        .tagline{
+            font-family: Space Mono;
+            font-weight: bold;
+            letter-spacing:-0.035rem;
+            font-size:2.2rem;
+        }
+        .description{
+            font-family: Space Mono;
+            font-size: 24px;
+        }
+
+        .buttoncss{
+            margin-top:4rem;
+        }
+        .returnbutton{
+            font-family: Space Mono;
+            background-color: var(--clr-gray1);
+            padding: 1rem 1.7rem;
+            font-weight: 700;
+            font-size: 10px;
+            color: var(--clr-white);
+            cursor: pointer;
+        }
+
+        section{
+            width: min(90%,70.5rem);
+            margin-left: 12.5rem;
+            margin-top: 8rem;
+            display: flex;
+            flex-direction: row;  
+            gap: 15rem;
+            flex-wrap:nowrap;
+        }
+
+        .emmari{
+            display: inline;
+        }
+
+        .credits{
+            color:var(--clr-footer);
+            display: flex;
+            margin-top:5.5rem;
+            margin-left:35rem;
+
+        }
+
+
+
+        @media only screen and (max-width:75rem) {
+            section{
+                margin-left: 9rem;
+                flex-direction:column;
+                gap:3rem;
+            }
+
+            br{
+                display: none;
+            }
+
+            .credits{
+                margin-left:9rem;
+                display: flex;
+            }
+
+            /* img{
+                height: 22rem;
+                width: 22rem;
+                align-items: center;
+            } */
+        }
+
+        @media only screen and (max-width:60rem) {
+            section{
+                margin-left: 2rem;
+                flex-direction:column;
+                gap:3rem;
+            }
+
+            br{
+                display: none;
+            }
+
+            /* img{
+                height: 22rem;
+                width: 22rem;
+            } */
+
+            .emmari{
+                display: flex;
+            }
+            .credits{
+                margin-left:2rem;
+                display: flex;
+            }
+        }
+
+
+
+    </style>
+</head>
+
+
+<body>
+    
+    <header>
+        <div class="heading">
+            404 NOT FOUND
+        </div>
+    </header>
+
+    <section>
+
+        <div style="display: flex;">
+            <img src="Scarecrow.png" height="350rem" width="350rem">
+        </div>
+
+        <div class="emmari">
+            <div style="margin-top:-2.8rem">
+                <div class="tagline">
+                    <h1>I have bad news <br> for you</h1>
+                </div>
+                <div class="description">
+                    <p>The page you are looking<br>
+                         for might be removed or is<br>
+                          temporarily unavailable</p>
+                </div>
+                <div class="buttoncss">
+                    <span class="returnbutton">BACK TO HOMEPAGE</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="credits">
+        <p>Created by <strong>harshithtunuguntla</strong>-devChallenges.io</p>
+    </div>
+
+
+    
+</body>
+
+
+
+</html>
